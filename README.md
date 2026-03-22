@@ -4,19 +4,15 @@ Codified Context provides infrastructure for organizing project knowledge to enh
 
 ## Key Features
 *   Structures project knowledge (code, docs, issues) into a unified, queryable format.
-*   Provides tools for generating and maintaining a persistent context index for AI agents.
-*   Enables efficient retrieval of relevant context for coding tasks and queries.
+*   Provides tools for generating and maintaining context snapshots for AI agents.
+*   Integrates with existing development workflows and version control.
 
 ## Tech Stack
 *   Python
-*   Pydantic (for data modeling)
-*   Tree-sitter (for code parsing)
+*   Pydantic
+*   Git
 
 ## Getting Started
-```bash
-git clone https://github.com/zoreanuj/codified-context-infrastructure.git
-cd codified-context-infrastructure
-pip install -r requirements.txt
-# Run the context builder on your project
-python -m codified_context.build /path/to/your/project
-```
+1.  Clone the repository: `git clone https://github.com/zoreanuj/codified-context-infrastructure.git`
+2.  Install dependencies: `pip install -r requirements.txt`
+3.  Run the example script: `python src/main.py`
