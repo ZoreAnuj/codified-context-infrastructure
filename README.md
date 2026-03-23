@@ -1,18 +1,23 @@
 # Codified Context Infrastructure
 
-Codified Context provides infrastructure for organizing project knowledge to enhance AI coding agents. It structures codebases, documentation, and context into a machine-readable format, enabling more accurate and context-aware code generation and reasoning.
+This project provides a structured framework for organizing project knowledge to enhance AI coding agents. It enables systematic context management, allowing agents to better understand and navigate codebases during development tasks.
 
 ## Key Features
-*   Structures project knowledge (code, docs, issues) into a unified, queryable format.
-*   Provides tools for generating and maintaining context snapshots for AI agents.
-*   Integrates with existing development workflows and version control.
+- Hierarchical context organization for projects and modules
+- Automated context extraction from code repositories
+- Integration interfaces for popular AI coding assistants
+- Version-controlled context snapshots
 
 ## Tech Stack
-*   Python
-*   Pydantic
-*   Git
+- Python 3.9+
+- Git for version control
+- YAML for configuration
+- REST APIs for agent integration
 
 ## Getting Started
-1.  Clone the repository: `git clone https://github.com/zoreanuj/codified-context-infrastructure.git`
-2.  Install dependencies: `pip install -r requirements.txt`
-3.  Run the example script: `python src/main.py`
+```bash
+git clone https://github.com/zoreanuj/codified-context-infrastructure.git
+cd codified-context-infrastructure
+pip install -r requirements.txt
+python setup.py configure
+```
